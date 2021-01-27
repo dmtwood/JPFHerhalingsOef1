@@ -5,8 +5,11 @@ import java.io.Serializable;
 public class Persoon implements Serializable, Comparable<Persoon> {
 
     public static final long serialVersionUID = 1L;
-    protected final String voornaam;
-    protected final String familienaam;
+     String voornaam;
+     String familienaam;
+
+    public Persoon() {
+    }
 
     public Persoon(String voornaam, String familienaam) {
         this.voornaam = voornaam;
