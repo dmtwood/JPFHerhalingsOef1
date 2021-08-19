@@ -1,6 +1,5 @@
-package be.vdab.jpf.herhaling1;
+package be.vdab.jpf.herhaling1.goededoel;
 
-import java.math.BigDecimal;
 import java.util.Scanner;
 
 public class GoedeDoelApp {
@@ -30,10 +29,10 @@ public class GoedeDoelApp {
                     System.out.println("Gestort voor " + doel.getNaam() + ": " + doel.getGestort());
                     input = GoedeDoel.getInput();
                     break;
-
-                case 0:
-                    input = 0;
-                    break;
+//
+//                case 0:
+//                    input = 0;
+//                    break;
             }
         }
     }

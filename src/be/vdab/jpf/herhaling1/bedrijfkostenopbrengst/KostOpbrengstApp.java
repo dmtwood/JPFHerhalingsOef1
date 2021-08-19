@@ -1,7 +1,9 @@
-package be.vdab.jpf.herhaling1;
+package be.vdab.jpf.herhaling1.bedrijfkostenopbrengst;
+
+import be.vdab.jpf.herhaling1.Gebouw;
+import be.vdab.jpf.herhaling1.Instructeur;
 
 import java.math.BigDecimal;
-import java.util.Arrays;
 
 public class KostOpbrengstApp {
 

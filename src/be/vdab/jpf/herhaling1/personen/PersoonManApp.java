@@ -1,6 +1,4 @@
-package be.vdab.jpf.herhaling1;
-
-import java.util.HashSet;
+package be.vdab.jpf.herhaling1.personen;
 
 public class PersoonManApp {
 

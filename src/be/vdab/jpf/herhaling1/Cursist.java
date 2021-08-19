@@ -1,5 +1,7 @@
 package be.vdab.jpf.herhaling1;
 
+import be.vdab.jpf.herhaling1.personen.Persoon;
+
 public class Cursist extends Persoon {
 
     String voornaam;

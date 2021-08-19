@@ -1,5 +1,8 @@
 package be.vdab.jpf.herhaling1;
 
+import be.vdab.jpf.herhaling1.bedrijfkostenopbrengst.Kost;
+import be.vdab.jpf.herhaling1.bedrijfkostenopbrengst.Opbrengst;
+
 import java.math.BigDecimal;
 
 public class Instructeur implements Kost, Opbrengst {

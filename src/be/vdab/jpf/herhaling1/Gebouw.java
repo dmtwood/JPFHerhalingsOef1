@@ -1,5 +1,7 @@
 package be.vdab.jpf.herhaling1;
 
+import be.vdab.jpf.herhaling1.bedrijfkostenopbrengst.Kost;
+
 import java.math.BigDecimal;
 
 public class Gebouw implements Kost {

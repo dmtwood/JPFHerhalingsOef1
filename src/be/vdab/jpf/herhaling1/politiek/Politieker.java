@@ -1,4 +1,6 @@
-package be.vdab.jpf.herhaling1;
+package be.vdab.jpf.herhaling1.politiek;
+
+import be.vdab.jpf.herhaling1.personen.Persoon;
 
 public class Politieker extends Persoon {
 

@@ -19,7 +19,7 @@ public class Breuk {
     }
 
     public void setteller(double teller) {
-        teller = teller;
+        this.teller = teller;
     }
 
     public double getnoemer() {
@@ -28,7 +28,7 @@ public class Breuk {
 
     public void setnoemer(double noemer) {
         if (noemer == 0) throw new IllegalArgumentException("Een noemer van een breuk mag geen nul zijn.");
-        noemer = noemer;
+        this.noemer = noemer;
     }
 
     @Override

@@ -1,6 +1,5 @@
-package be.vdab.jpf.herhaling1;
+package be.vdab.jpf.herhaling1.personen;
 
-import java.io.File;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.nio.file.Files;
@@ -22,7 +21,7 @@ public class PersoonManager {
             fileStream.writeObject(personen);
 
         } catch (Exception exception){
-
+            System.out.println(exception.getMessage());
         }
         }
 
@@ -32,7 +31,7 @@ public class PersoonManager {
             return (Personen) fileStream.readObject();
         } catch (Exception exception) {
         System.out.println("Uitzondering " + exception);
-        };
+        }
         return null;
     }
 }

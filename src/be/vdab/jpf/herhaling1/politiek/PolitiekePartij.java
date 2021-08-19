@@ -1,4 +1,4 @@
-package be.vdab.jpf.herhaling1;
+package be.vdab.jpf.herhaling1.politiek;
 
 public class PolitiekePartij  {
 

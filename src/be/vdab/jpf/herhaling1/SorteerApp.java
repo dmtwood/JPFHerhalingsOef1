@@ -1,6 +1,7 @@
 package be.vdab.jpf.herhaling1;
 
-import java.util.Set;
+import be.vdab.jpf.herhaling1.personen.Persoon;
+
 import java.util.TreeSet;
 
 public class SorteerApp {
